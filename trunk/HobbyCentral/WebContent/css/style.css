@@ -1,0 +1,478 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(/HobbyCentral/images/img01-copy.jpg) repeat-x;
+	font: normal small Georgia, "Times New Roman", Times, serif;
+	color: black;
+	min-height: 500px;
+	height: auto;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Header */
+
+#header {
+	width: 820px;
+	height: 130px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+#leftbar {
+	position: absolute;
+	left: 0px;
+	width: 240px;
+}
+
+#rightbar {
+	position: absolute;
+	right: 0px;
+	width: 240px;
+}
+
+
+/* Content */
+
+#content {
+	margin: 0 250px 0 270px;
+	min-height: 900px;
+}
+
+/* Menu */
+
+#menu {
+	height: 50px;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 50px;
+	padding-top: 10px;
+	text-transform: lowercase;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	color: #B8BD52;
+}
+
+#menu a:hover {
+	color: #1A1A1A;
+}
+
+#menu .active a {
+	background: url(/HobbyCentral/images/img03.jpg) no-repeat;
+	color: #FFFFFF;
+}
+
+/* Gallery Main Page */
+
+#gallery {
+	/*clear: both;*/
+	width: 700px;
+	height: 300px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top-photo h2 {
+	height: 1.4em;
+	font-size: 1em;
+}
+
+#top-photo p {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+#prev {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100px;
+	/*background: url(/HobbyCentral/images/img11.gif) no-repeat;*/
+}
+
+#next {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100px;
+	/*background: url(/HobbyCentral/images/img13.gif) no-repeat right top;*/
+}
+
+#prev span, #next span {
+	display: none;
+}
+
+#thumbs {
+	display: block;
+	float: left;
+	width: 640px;
+	height: 100px;
+	background: url(/HobbyCentral/images/img12.gif) no-repeat;
+}
+
+#thumbs img {
+	padding: 8px 0 0 5px;
+}
+
+/* Gallery Other Pages*/
+
+#galleryOtherPages {
+	/*clear: both;*/
+	width: 700px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#top-photoOtherPages h2 {
+	height: 1.4em;
+	font-size: 1em;
+}
+
+#top-photoOtherPages p {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+#prevOtherPages {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100px;
+	background: url(/HobbyCentral/images/img11.gif) no-repeat;
+}
+
+#nextOtherPages {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100px;
+	background: url(/HobbyCentral/images/img13.gif) no-repeat right top;
+}
+
+#prevOtherPages span, #nextOtherPages span {
+	display: none;
+}
+
+#thumbsOtherPages {
+	display: block;
+	float: left;
+	width: 640px;
+	height: 100px;
+	background: url(/HobbyCentral/images/img12.gif) no-repeat;
+}
+
+/* Posts */
+
+#posts {
+	float: right;
+	width: 430px;
+}
+
+#postsmain {
+	float: left;
+	width: 100%;
+}
+
+.post h2 {
+	color: #FF8400;
+}
+
+.postGallery h2 {
+	text-align: center;
+	font: Georgia;
+	text-transform: none;
+	color: #FF8400;
+}
+
+.post {
+	margin-bottom: 10px;
+}
+
+.postGallery {
+	margin-bottom: 10px;
+}
+
+.postGallery .storyGallery span {
+	text-weight: bolder;
+	font-size: 18px;
+	color: #FF6600;
+}
+
+.postGallery .storyGallery {
+	padding: 10px 20px;
+	line-height: 180%;
+}
+.postGallery .storyGallery img {
+	height: 100px;
+	width: 100px;
+}
+
+.postGallery .storyGallery p {
+	text-align: center;
+}
+
+.postGallery .storyGallery form {
+	text-align: center;
+}
+
+.post h2 {
+	text-transform: none;
+	font: Georgia;
+}
+
+.post .title {
+	padding: 0 0 5px 20px;
+	color: #FF8400;
+}
+
+.meta {
+	padding: 10px 20px;
+	background: url(/HobbyCentral/images/img15.gif) repeat-x;
+	/*font-size: smaller;*/
+}
+
+.meta p {
+	margin: 0;
+}
+
+.post .story {
+	padding: 10px 20px;
+	line-height: 180%;
+}
+.post .story img {
+	height: 100px;
+	width: 100px;
+}
+
+.post .storylist {
+	padding: 10px 20px;
+	line-height: 180%;
+	height: 100px;
+	background-image: url(/HobbyCentral/images/horizontalborder.gif) repeat-x;
+	border-bottom: 1px dotted #B8B8B8 ;
+}
+.post .storylist img {
+	height: 100px;
+	width: 100px;
+	float:left;
+	padding-right: 20px;
+}
+
+.post .storylist a {
+	text-decoration: none;
+}
+.post .storylist span {
+	padding-top: 10px;
+	display: block;
+	font-size: 15px;
+}
+
+.post .storylist p {
+	display: block;
+	margin: 0 .5em .6em 0;
+}
+
+.moreinfo span {
+	font-weight: bold;
+}
+
+/* HobbyList */
+#hobbylist table {
+	width:100%;
+}
+
+#hobbylist td {
+	width:50%;
+	border-bottom: 1px dotted #B8B8B8;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	padding: 40px;
+	background: #C3C837 url(/HobbyCentral/images/img16.gif) repeat-x;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	font-size: smaller;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+
+#googlefeeds {
+	padding-top: 10px;
+	padding-left: 5px;
+}
+.googlefeeds a {
+	color: blue;
+}
+
+/* Site Serch Box */
+
+#search {
+/*	position: absolute;
+	top: 105px;
+	right: 8px;*/
+	padding: 5px;
+}
+
+#jumpto {
+/*	position: absolute;
+	top: 105px;
+	left: 10px;*/
+	padding: 5px;
+}
+
+/* Logo */
+
+#logo {
+	height: 80px;
+}
+
+#logo h1 {
+	float: left;
+	padding: 30px 40px 0 0;
+	background: url(/HobbyCentral/images/img02.gif) no-repeat right center;
+	letter-spacing: -2px;
+	font-size: 40px;
+}
+
+#logo h2 {
+	float: right;
+	padding: 61px 0 0 0;
+	font-size: 24px;
+	
+}
+
+#logo a {
+	text-decoration: none;
+	color: #1A1A1A;
+}
+
+.blogs {
+	background-color: #d1d565;
+}
+
+.wiki {
+	text-align: center;
+}
+
+#ebay td {
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+}
+
+#ebay th {
+	border-bottom: 1px solid grey;
+}
+
+.btn {
+	background-color: #FF8400;
+	padding: 1px;
+	color: white;
+	font-size: 13px;
+	width: 65px;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+.btn:hover {
+	background-color: #FFA400;
+}
+
+/* Boxed1 */
+
+.boxed {
+	/*margin-bottom: 1.5em;*/
+	background: url(/HobbyCentral/images/img14-copy.gif) no-repeat 0em 2.5em;
+}
+
+.boxed h2 {
+	padding-left: 0px;
+	/*color: #0078FF;*/
+	color: #3366CC;
+}
+
+.boxed .content {
+	padding: 10px;
+}
+
+.boxed ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.boxed li {
+	padding: 10px;
+	border-bottom: 1px dotted #0078FF;
+}
+
+.boxed a {
+	text-decoration: none;
+	color: #FF6000;
+	/*color: #0078FF;*/
+}
+
+.boxed a:hover {
+	text-decoration: underline;
+}
+
+.list td {
+	border-bottom: 1px solid grey;
+}

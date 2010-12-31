@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- saved from url=(0014)about:internet -->
+</HEAD>
+
+<BODY leftmargin=0 topmargin=0 style="text-align:center;">
+<SCRIPT type="text/JavaScript">
+<!--
+var _GETS={};
+function _GetRequest(l)
+{
+		var s=l.substr(l.indexOf('?')+1);
+		var as=s.split("&"),re=/([^=]*)=(.*)/,r;
+		for(var i=0;i<as.length;i++)
+		{
+			r=re.exec(as[i]);
+			if(r)
+				_GETS[r[1]]=r[2];
+		}
+}
+_GetRequest(location.href);
+function showWidget()
+{
+
+	var s="<iframe align='center'"+
+			" src=\""+_GETS["name"]+
+			"?bgClr="+_GETS["bgClr"]+
+			"\" width="+_GETS["width"]+
+			"  height="+_GETS["height"]+
+			" frameborder=0"+
+			" style='border:"+_GETS["bdWid"]+"px solid "+(_GETS["bdClr"]?_GETS["bdClr"].replace("%23","#"):"")+";'"+
+			" SCROLLING="+(_GETS["scrollbar"]==1?"yes":"no")+"></iframe>";
+	document.write(s);
+}
+showWidget();
+//-->
+</SCRIPT>
+</BODY>
+</HTML>
