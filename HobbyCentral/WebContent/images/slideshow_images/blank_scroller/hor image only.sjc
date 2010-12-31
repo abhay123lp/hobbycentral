@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sothink_jwscroller>
+  <description>
+    <temp_depict></temp_depict>
+    <temp_title>Hor Image and Text</temp_title>
+    <version>2.00</version>
+    <prog_id>PageletServer.JWScroller</prog_id>
+    <update_time></update_time>
+    <preview_path></preview_path>
+  </description>
+  <total>
+    <global>
+      <jwscroller_name>jwscroller2dbd</jwscroller_name>
+      <script_path></script_path>
+      <image_path></image_path>
+      <link_prefix></link_prefix>
+      <fast_js_enable>0</fast_js_enable>
+      <fast_js_type>0</fast_js_type>
+      <fast_js_img_path></fast_js_img_path>
+      <fast_js_script_path></fast_js_script_path>
+      <scroll_show>0</scroll_show>
+      <css_path></css_path>
+      <css_img_path></css_img_path>
+      <script_path_def></script_path_def>
+      <image_path_def></image_path_def>
+      <css_path_def></css_path_def>
+      <css_img_path_def></css_img_path_def>
+      <is_custom_js>0</is_custom_js>
+      <is_custom_img>0</is_custom_img>
+      <is_custom_css>0</is_custom_css>
+      <is_custom_css_img>0</is_custom_css_img>
+      <fast_method>0</fast_method>
+      <fast_js_name>scroller.js</fast_js_name>
+      <fast_css_name>scroller</fast_css_name>
+      <fast_scroller_id>JWS</fast_scroller_id>
+      <fast_page_path></fast_page_path>
+      <fast_css_path></fast_css_path>
+      <type>1</type>
+      <width_vert>200</width_vert>
+      <width_unit_vert>0</width_unit_vert>
+      <height_hor>0</height_hor>
+      <height_vert>400</height_vert>
+      <item_min_height_hor>0</item_min_height_hor>
+      <item_min_height_vert>100</item_min_height_vert>
+      <text_area_width>200</text_area_width>
+      <width>60</width>
+      <width_unit>1</width_unit>
+      <align>0</align>
+      <item_img_area_w>100</item_img_area_w>
+      <item_img_area_h>120</item_img_area_h>
+      <max_item_number>0</max_item_number>
+      <spacing>3</spacing>
+      <padding>1</padding>
+      <bg_color>#FFFFFF</bg_color>
+      <bg_transparent>0</bg_transparent>
+      <bg_image></bg_image>
+      <bg_tile>3</bg_tile>
+      <auto_scroll>0</auto_scroll>
+      <auto_speed>5</auto_speed>
+      <noauto_speed>50</noauto_speed>
+      <loop_scroll>1</loop_scroll>
+      <scroll>2</scroll>
+      <mode>1</mode>
+      <pause>2000</pause>
+      <frame_rate_auto>24</frame_rate_auto>
+      <frame_rate_noauto>12</frame_rate_noauto>
+      <direction_hor>0</direction_hor>
+      <direction_vert>2</direction_vert>
+      <effect>50</effect>
+      <effect_speed>60</effect_speed>
+      <encode>1</encode>
+    </global>
+    <arrows>
+      <enable_arrow>1</enable_arrow>
+      <left_out_enalbe>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowl_out.gif</left_out_enalbe>
+      <left_over_enalbe>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowl_over.gif</left_over_enalbe>
+      <left_disable>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowl_gray.gif</left_disable>
+      <left_width>13</left_width>
+      <left_height>13</left_height>
+      <left_align_h>1</left_align_h>
+      <left_align_v>1</left_align_v>
+      <right_out_enalbe>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowr_out.gif</right_out_enalbe>
+      <right_over_enalbe>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowr_over.gif</right_over_enalbe>
+      <right_disable>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowr_gray.gif</right_disable>
+      <right_width>13</right_width>
+      <right_height>13</right_height>
+      <right_align_h>1</right_align_h>
+      <right_align_v>1</right_align_v>
+      <up_out_enable>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowu_out.gif</up_out_enable>
+      <up_over_enable>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowu_over.gif</up_over_enable>
+      <up_disable>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowu_gray.gif</up_disable>
+      <up_width>13</up_width>
+      <up_height>13</up_height>
+      <down_out_enable>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowd_out.gif</down_out_enable>
+      <down_over_enable>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowd_over.gif</down_over_enable>
+      <down_disable>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\arrowd_gray.gif</down_disable>
+      <down_width>13</down_width>
+      <down_height>13</down_height>
+    </arrows>
+    <title>
+      <enable_title>1</enable_title>
+      <type>0</type>
+      <content>Title</content>
+      <align_h>0</align_h>
+      <bg_color>#90BE7F</bg_color>
+      <bg_transparent>1</bg_transparent>
+      <bg_image>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\bgtitle.gif</bg_image>
+      <bg_tile>3</bg_tile>
+      <font_face>Verdana, Arial</font_face>
+      <font_color>#000000</font_color>
+      <font_size>9</font_size>
+      <font_size_unit>0</font_size_unit>
+      <font_decoration>1</font_decoration>
+    </title>
+    <pagination>
+      <enable_pagination>1</enable_pagination>
+      <bg_nor_color>#FFFFF7</bg_nor_color>
+      <bg_nor_transparent>1</bg_nor_transparent>
+      <bg_sel_color>#336600</bg_sel_color>
+      <bg_sel_transparent>0</bg_sel_transparent>
+      <font_nor_face>Verdana, Arial</font_nor_face>
+      <font_nor_color>#000000</font_nor_color>
+      <font_nor_size>7</font_nor_size>
+      <font_nor_size_unit>0</font_nor_size_unit>
+      <font_nor_decoration>0</font_nor_decoration>
+      <font_sel_face>Verdana, Arial</font_sel_face>
+      <font_sel_color>#FFFFFF</font_sel_color>
+      <font_sel_size>7</font_sel_size>
+      <font_sel_size_unit>0</font_sel_size_unit>
+      <font_sel_decoration>0</font_sel_decoration>
+    </pagination>
+    <border>
+      <station>0</station>
+      <global_enable>1</global_enable>
+      <global_enalbe_round>1</global_enalbe_round>
+      <global_style>1</global_style>
+      <global_width>1</global_width>
+      <global_color>#454545</global_color>
+      <global_synchronize>1</global_synchronize>
+      <global_round_group>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round.png</global_round_group>
+      <global_round_size>5</global_round_size>
+      <global_round_l>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_t.gif</global_round_l>
+      <global_round_lt>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_tl.gif</global_round_lt>
+      <global_round_t>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_r.gif</global_round_t>
+      <global_round_rt>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_tr.gif</global_round_rt>
+      <global_round_r>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_b.gif</global_round_r>
+      <global_round_rb>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_br.gif</global_round_rb>
+      <global_round_b>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_l.gif</global_round_b>
+      <global_round_lb>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_bl.gif</global_round_lb>
+      <tip_enable>1</tip_enable>
+      <tip_enable_round>1</tip_enable_round>
+      <tip_style>1</tip_style>
+      <tip_width>1</tip_width>
+      <tip_color>#454545</tip_color>
+      <tip_synchronize>1</tip_synchronize>
+      <tip_round_group>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round.png</tip_round_group>
+      <tip_round_size>5</tip_round_size>
+      <tip_round_l>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_t.gif</tip_round_l>
+      <tip_round_lt>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_tl.gif</tip_round_lt>
+      <tip_round_t>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_r.gif</tip_round_t>
+      <tip_round_rt>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_tr.gif</tip_round_rt>
+      <tip_round_r>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_b.gif</tip_round_r>
+      <tip_round_rb>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_br.gif</tip_round_rb>
+      <tip_round_b>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_l.gif</tip_round_b>
+      <tip_round_lb>E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\round_bl.gif</tip_round_lb>
+      <item_enable>0</item_enable>
+      <item_style>1</item_style>
+      <item_width>1</item_width>
+      <item_color>#454545</item_color>
+      <item_synchronize>1</item_synchronize>
+    </border>
+  </total>
+  <data>
+    <node>
+      <item image="E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\default.gif" img_w="80" img_h="100" type="0" link="" target="_self" align_h="1" bg_color="#FFFFFF" bg_transparent="1" font_out_face="Verdana, Arial" font_out_color="#000000" font_out_size="9" font_out_size_unit="0" font_out_decoration="0" font_over_face="Verdana, Arial" font_over_color="#000000" font_over_size="9" font_over_size_unit="0" font_over_decoration="0">
+        <content>Item 1</content>
+      </item>
+      <tip enable_tip="0" type="0" load_file="" align_h="1" align_v="1" use_effect="1" width="100" height="100" offset_x="0" offset_y="0" effect_speed="80" font_face="Verdana, Arial" font_color="#000000" font_size="9" font_size_unit="0" font_decoration="0" bg_color="#FFFFFF" bg_transparent="0" bg_image="" bg_tile="3">
+        <content>Tip</content>
+      </tip>
+      <condition condition_invisible="0">
+        <condition_prefix></condition_prefix>
+        <condition_suffix></condition_suffix>
+      </condition>
+      <image_map use_map="0" src_img_w="0" src_img_h="0">
+      </image_map>
+    </node>
+    <node>
+      <item image="E:\WorkSpace\Sothink JS Web Scroller\run_debug\resource\default.gif" img_w="80" img_h="100" type="0" link="" target="_self" align_h="1" bg_color="#FFFFFF" bg_transparent="1" font_out_face="Verdana, Arial" font_out_color="#000000" font_out_size="9" font_out_size_unit="0" font_out_decoration="0" font_over_face="Verdana, Arial" font_over_color="#000000" font_over_size="9" font_over_size_unit="0" font_over_decoration="0">
+        <content>Item 2</content>
+      </item>
+      <tip enable_tip="0" type="0" load_file="" align_h="1" align_v="1" use_effect="1" width="100" height="100" offset_x="0" offset_y="0" effect_speed="80" font_face="Verdana, Arial" font_color="#000000" font_size="9" font_size_unit="0" font_decoration="0" bg_color="#FFFFFF" bg_transparent="0" bg_image="" bg_tile="3">
+        <content>Tip</content>
+      </tip>
+      <condition condition_invisible="0">
+        <condition_prefix></condition_prefix>
+        <condition_suffix></condition_suffix>
+      </condition>
+      <image_map use_map="0" src_img_w="0" src_img_h="0">
+      </image_map>
+    </node>
+  
+  </data>
+</sothink_jwscroller>
